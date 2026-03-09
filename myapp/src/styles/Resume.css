@@ -1,0 +1,83 @@
+.resume-section{
+  padding:120px 10%;
+  background:#020617;
+  color:white;
+  text-align:center;
+}
+
+/* title */
+
+.resume-title{
+  font-size:42px;
+
+  background:linear-gradient(90deg,#fbbf24,#f97316);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.resume-subtitle{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+/* card */
+
+.resume-card{
+
+  margin:50px auto;
+
+  max-width:350px;
+
+  padding:40px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  transition:0.3s;
+}
+
+.resume-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* icon */
+
+.resume-icon{
+  font-size:50px;
+  color:#f97316;
+  margin-bottom:15px;
+}
+
+/* button */
+
+.resume-btn{
+
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+
+  margin-top:20px;
+
+  padding:12px 24px;
+
+  border-radius:25px;
+
+  background:linear-gradient(90deg,#fbbf24,#f97316);
+
+  color:black;
+
+  font-weight:600;
+
+  text-decoration:none;
+
+  transition:0.3s;
+}
+
+.resume-btn:hover{
+  transform:scale(1.05);
+}

@@ -1,0 +1,72 @@
+.certifications{
+  padding:120px 10%;
+  background:#020617;
+  color:white;
+}
+
+/* title */
+
+.cert-title{
+  font-size:42px;
+
+  background:linear-gradient(90deg,#00d9ff,#7b2cff,#ff4ecd);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.cert-subtitle{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+/* grid */
+
+.cert-container{
+
+  margin-top:60px;
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+  gap:30px;
+}
+
+/* card */
+
+.cert-card{
+
+  padding:30px;
+
+  border-radius:18px;
+
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  text-align:center;
+
+  transition:0.3s;
+}
+
+.cert-card:hover{
+
+  transform:translateY(-8px);
+
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* icon */
+
+.cert-icon{
+
+  font-size:32px;
+
+  margin-bottom:15px;
+
+  color:#38bdf8;
+}
+
+.cert-card h3{
+  font-size:18px;
+}

@@ -1,0 +1,88 @@
+.experience{
+  padding:120px 10%;
+  background:#020617;
+  color:white;
+}
+
+/* title */
+
+.exp-title{
+  font-size:42px;
+  font-weight:700;
+
+  background:linear-gradient(90deg,#00d9ff,#7b2cff,#ff4ecd);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.exp-subtitle{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+/* card */
+
+.exp-card{
+
+  margin-top:50px;
+
+  padding:35px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(12px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  transition:0.35s;
+}
+
+.exp-card:hover{
+  transform:translateY(-8px);
+
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* header */
+
+.exp-header{
+  justify-content: space-between;
+}
+
+/* date */
+
+.exp-date{
+  color:#38bdf8;
+  font-weight:600;
+  min-width:170px;
+  margin-top: 10px;
+}
+
+/* role */
+
+.exp-role{
+  color:#60a5fa;
+  font-size:22px;
+}
+
+/* company */
+
+.exp-company{
+  margin-top:4px;
+  font-size:16px;
+  color:white;
+}
+
+/* points */
+
+.exp-points{
+  margin-top:20px;
+  padding-left:20px;
+  color:#cbd5f5;
+  line-height:1.7;
+}
+
+.exp-points li{
+  margin-bottom:8px;
+}
