@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <div className="logo">SP</div>
+      <div className="logo"><a href="#hero">SP</a></div>
 
       <ul className={menuOpen ? "nav-links active" : "nav-links"}>
         <li><a href="#about">About</a></li>

@@ -7,7 +7,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
 
       {/* Availability Badge */}
       <div className="availability">

@@ -22,6 +22,14 @@
   font-weight:bolder;
   letter-spacing:2px;
   cursor:pointer;
+  background:linear-gradient(to right,#1226db,#da05a1);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+.logo a{
+  text-decoration:none;
+  color:inherit;
 }
 
 .nav-links{
