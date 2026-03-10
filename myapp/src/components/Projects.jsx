@@ -48,7 +48,7 @@ function Projects() {
           </div>        
 
           <div className="project-links">
-            <a href="https://github.com/parthugari-shivakoti/Quantum_classical_project" target="_blank" rel="noreferrer">
+            <a href="https://www.kaggle.com/code/shivaparthugari/completedmajor-project" target="_blank" rel="noreferrer">
               <FaGithub /> Code
             </a>        
 
