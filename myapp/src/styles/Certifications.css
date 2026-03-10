@@ -10,6 +10,7 @@
   font-size:42px;
 
   background:linear-gradient(90deg,#00d9ff,#7b2cff,#ff4ecd);
+  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;
 }

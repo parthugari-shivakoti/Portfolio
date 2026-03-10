@@ -8,6 +8,7 @@
   font-size:40px;
 
   background:linear-gradient(90deg,#3b82f6,#ec4899);
+  background-clip:text;
   -webkit-background-clip:text;
   color:transparent;
 }
