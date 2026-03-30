@@ -48,11 +48,11 @@ function Projects() {
           </div>        
 
           <div className="project-links">
-            <a href="https://www.kaggle.com/code/shivaparthugari/completedmajor-project" target="_blank" rel="noreferrer">
+            <a href="https://parthugari-shivakoti.github.io/Quantum_classical_project/" target="_blank" rel="noreferrer">
               <FaGithub /> Code
             </a>        
 
-            <a href="https://parthugari-shivakoti.github.io/Quantum_classical_project/" target="_blank" rel="noreferrer">
+            <a href="https://www.kaggle.com/code/shivaparthugari/hybridmodel1/edit" target="_blank" rel="noreferrer">
               <FaExternalLinkAlt /> Demo
             </a>
           </div>        
